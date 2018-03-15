@@ -1,0 +1,23 @@
+#exit_b, #help_b {
+    /* ditraction free experience */
+    display: none;
+}
+/* all images will by found by their ids, sad consequence of markdown, can't use percents, let's hope the diaply is full HD */
+img[alt=guido1] {
+    height: 700px;
+}
+
+img[alt=logo0] {
+    height: 400px;
+}
+img[alt=logo1] {
+    height: 400px;
+}
+
+/* image captions only*/
+small {
+    font-size: x-small !important;
+}
+h1, h2 {
+    text-align: center;
+}
